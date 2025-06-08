@@ -29,10 +29,7 @@ resource "yandex_compute_instance" "nat_instance" {
     nat        = true
   }
 
-  metadata = {
-    serial-port-enable = var.metamaps.meta["serial"]
-    ssh-keys           = local.ssh_key
-  }
+  metadata = local.vm_meta
 }
 
 ### -------- vm public----------------------
@@ -55,12 +52,9 @@ resource "yandex_compute_instance" "vm_pub" {
     }
   }
  
- metadata = {
-    serial-port-enable = var.metamaps.meta["serial"]
-    ssh-keys           = local.ssh_key
-  }
+  metadata = local.vm_meta
 
- scheduling_policy {   preemptible = var.vms_resources.web["preemt"]  }
+  scheduling_policy {   preemptible = var.vms_resources.web["preemt"]  }
 
   network_interface {
     subnet_id = yandex_vpc_subnet.public.id
@@ -89,10 +83,7 @@ resource "yandex_compute_instance" "vm_priv" {
     }
   }
  
- metadata = {
-    serial-port-enable = var.metamaps.meta["serial"]
-    ssh-keys           = local.ssh_key
-  }
+ metadata = local.vm_meta
 
  scheduling_policy {    preemptible = var.vms_resources.web["preemt"] }
 
