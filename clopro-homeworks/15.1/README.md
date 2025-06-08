@@ -18,12 +18,14 @@
 --------   
 
 1. Проект Terraform:
- [dep-ng-mu](https://github.com/Heimdier/DEV/blob/main/Kube/2.3/dep-ng-mu.yml)
-  [dep-ng-mu](https://github.com/Heimdier/DEV/blob/main/Kube/2.3/dep-ng-mu.yml)
-   [dep-ng-mu](https://github.com/Heimdier/DEV/blob/main/Kube/2.3/dep-ng-mu.yml)
-    [dep-ng-mu](https://github.com/Heimdier/DEV/blob/main/Kube/2.3/dep-ng-mu.yml)
+ [main.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/main.tf)   
+  [instance.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/instance.tf)   
+   [providers.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/providers.tf)   
+    [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/variables.tf)   
+     [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
+   
 
-2. Применил конфиг `terraform apply`   
+3. Применил конфиг `terraform apply`   
 
 ![image](https://github.com/user-attachments/assets/4b53acce-dc0c-4449-8328-25acd33fbb63)   
 
