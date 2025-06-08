@@ -33,37 +33,7 @@
 
 ![image](https://github.com/user-attachments/assets/bb6a80c8-6992-47e2-b144-103fda4fb6d1)
 
-4. Подключился к vm в приватной сети из публичной vm `ubuntu@fhmjlochuvr484k1soat:~$ ssh -i ~/.ssh/yan ubuntu@192.168.20.14`
+4. Подключился к vm в приватной сети из публичной vm `ubuntu@fhmjlochuvr484k1soat:~$ ssh -i ~/.ssh/yan ubuntu@192.168.20.14` и проверил выход в интернет:
 
+![image](https://github.com/user-attachments/assets/988991a9-ca31-4800-b0a4-f84d4de12f11)
 
-
-
-
-
-
-
-4. Подготовил сервис для подключения к nginx [service-nx](https://github.com/Heimdier/DEV/blob/main/Kube/2.3/service-nx.yml)
-
-5. Стартовал манифесты
-```shell
-maha@mahavm:~/kuber/2-3$ kubectl apply -f config-map-mu.yml
-configmap/mu-port created
-maha@mahavm:~/kuber/2-3$ kubectl apply -f config-map-nx.yml
-configmap/nginx-index created
-maha@mahavm:~/kuber/2-3$ kubectl apply -f dep-ng-mu.yml
-deployment.apps/2app created
-maha@mahavm:~/kuber/2-3$ kubectl apply -f service-nx.yml
-service/service-nx created
-```
-![image](https://github.com/user-attachments/assets/fed05a12-40d8-4be9-8f4f-e58f40e3dbcf)
-
-6. Зашел в отдельный под и постучался curl на сервис
-
-![image](https://github.com/user-attachments/assets/77e5612a-2131-413d-861e-528e98b788bf)
-
-------
-
-### Задание 1. Создать Deployment приложения и решить возникшую проблему с помощью ConfigMap. Добавить веб-страницу
-
-1. Создал Deployment приложения, состоящего из контейнеров nginx и multitool   
- [dep-ng-mu](https://github.com/Heimdier/DEV/blob/main/Kube/2.3/dep-ng-mu.yml)
