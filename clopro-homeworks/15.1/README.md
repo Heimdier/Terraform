@@ -18,6 +18,7 @@
 --------   
 
 1. Проект Terraform:
+
  [main.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/main.tf)   
   [instance.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/instance.tf)   
    [providers.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/providers.tf)   
@@ -25,7 +26,7 @@
      [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
    
 
-3. Применил конфиг `terraform apply`   
+2. Применил конфиг `terraform apply`   
 
 ![image](https://github.com/user-attachments/assets/4b53acce-dc0c-4449-8328-25acd33fbb63)   
 
