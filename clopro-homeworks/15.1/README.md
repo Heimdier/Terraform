@@ -18,12 +18,11 @@
 --------   
 
 1. Проект Terraform:   
-
- [main.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/main.tf)   
-  [instance.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/instance.tf)   
-   [providers.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/providers.tf)   
-    [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/variables.tf)   
-     [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
+      [main.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/main.tf)   
+      [instance.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/instance.tf)   
+      [providers.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/providers.tf)   
+      [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/variables.tf)   
+      [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
    
 
 2. Применил конфиг `terraform apply`   
