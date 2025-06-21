@@ -30,7 +30,7 @@
 
 --------   
 
-1. ### *Проект Terraform:*   
+1. ## *Проект Terraform:*   
       [main.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/main.tf)   
       [instance.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/instance.tf)   
       [providers.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/providers.tf)   
@@ -38,10 +38,10 @@
       [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
    
 
-2. ### *Применил конфиг*
+2. ## *Применил конфиг*
    `terraform apply`   
 
-3. ### *проверяем доступность картинки в бакете из интернет:*   
+3. ## *проверяем доступность картинки в бакете из интернет:*   [картинка](https://tarahumara.website.yandexcloud.net/ben.jpg)
 
 ![image](https://tarahumara.website.yandexcloud.net/ben.jpg)  
 
