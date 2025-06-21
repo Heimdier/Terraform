@@ -38,11 +38,12 @@
       [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
    
 
-2. ### *Применил конфиг `terraform apply`*   
+2. ### *Применил конфиг*
+   `terraform apply`   
 
-![image](https://github.com/user-attachments/assets/4b53acce-dc0c-4449-8328-25acd33fbb63)   
+3. ### *проверяем доступность картинки в бакете из интернет:*   
 
-![image](https://github.com/user-attachments/assets/5c54ca16-e8f0-44ba-b444-abcb72b122e2)  
+![image](https://tarahumara.website.yandexcloud.net/ben.jpg)  
 
 3. ### *Подключился к vm в публичной сети - проверил выход в интернет:*   
 
