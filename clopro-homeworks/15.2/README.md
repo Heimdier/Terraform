@@ -31,12 +31,8 @@
 --------   
 1. ## *Создать бакет Object Storage и разместить в нём файл с картинкой:*   
 - *Проект Terraform:*   
-      [main.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/main.tf)   
-      [instance.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/instance.tf)   
-      [providers.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/providers.tf)   
-      [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/variables.tf)   
-      [locals.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.1/locals.tf)
-   
+      [s3.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.2/s3.tf)   
+      [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.2/variables.tf)   
 
 - *Применил конфиг*
    `terraform apply`   
