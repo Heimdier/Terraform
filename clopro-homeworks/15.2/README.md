@@ -45,10 +45,10 @@
 
 ![image](https://tarahumara.website.yandexcloud.net/ben.jpg)  
 
----
+--------
 
 2. ## *Создать группу ВМ в public подсети фиксированного размера с шаблоном LAMP и веб-страницей, содержащей ссылку на картинку из бакета:*    
-- *Проект Terraform:*
+- *Проект Terraform:*   
       [vm_group_pub.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.2/vm_group_pub.tf)   
       [balancer.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.2/balancer.tf)   
 
@@ -67,14 +67,3 @@
 ![image](https://github.com/user-attachments/assets/b6e73e61-a240-4f7b-9c35-cc82c0ecc518)
 
 
-![image](https://github.com/user-attachments/assets/a941cf2c-dca6-40ae-8630-6dadb51f524b)
-
-
-
-3. ### *Подключился к vm в публичной сети - проверил выход в интернет:*   
-
-![image](https://github.com/user-attachments/assets/bb6a80c8-6992-47e2-b144-103fda4fb6d1)
-
-4. ### *Подключился к vm в приватной сети из публичной vm `ubuntu@fhmjlochuvr484k1soat:~$ ssh -i ~/.ssh/yan ubuntu@192.168.20.14` и проверил выход в интернет:*
-
-![image](https://github.com/user-attachments/assets/988991a9-ca31-4800-b0a4-f84d4de12f11)
