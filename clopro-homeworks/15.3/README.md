@@ -29,10 +29,10 @@
 
 
 ----------------------------------------------------------- 
-1. ## *Создать бакет Object Storage и разместить в нём файл с картинкой:*   
-- *создал ключ в KMS*   
-      [s3.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.2/s3.tf)   
-      [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.2/variables.tf)   
+1. ## *С помощью ключа в KMS необходимо зашифровать содержимое бакета:*   
+- *проект terraform:*      
+      [s3.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.3/s3.tf)   
+      [variables.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.3/variables.tf)   
 
 - *создал симметричный ключ в KMS*   
 ```
