@@ -28,7 +28,8 @@
 
 
 
------------------------------------------------------------ 
+-----------------------------------------------------------    
+## *Выполнение*   
 1. ## *С помощью ключа в KMS необходимо зашифровать содержимое бакета:*   
 - *проект terraform:*      
       [s3.tf](https://github.com/Heimdier/Terraform/blob/main/clopro-homeworks/15.3/s3.tf)   
@@ -77,6 +78,12 @@ resource "yandex_kms_symmetric_key_iam_binding" "key_encrypter_decrypter" {
 - *пробую снова открыть файл из бакета - видим что файл зашифрован*
 
  ![image](https://github.com/user-attachments/assets/abb4b74d-7f3e-46af-8dd8-aebb8e03a1d2)
+
+
+
+2. ## *Создать статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:*
+
+
 
 
 - *Проверяем доступность картинки в бакете из интернет:*   [https://tarahumara.website.yandexcloud.net/ben.jpg](https://tarahumara.website.yandexcloud.net/ben.jpg)
