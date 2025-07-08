@@ -82,8 +82,30 @@ resource "yandex_kms_symmetric_key_iam_binding" "key_encrypter_decrypter" {
 
 
 2. ## *Создать статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:*
+- *через Let’s Encrypt создать сертификат не удалось, поэтому я выпустил самоподписной сертификат:*   
+```
+openssl req -x509 -newkey rsa:4096 -nodes \
+  -keyout key.pem \
+  -out cert.pem \
+  -days 365 \
+  -subj '/CN=hachi.qzz.io'
+```
 
+- *добавил его через Certificate Manager:*
 
+![image](https://github.com/user-attachments/assets/67e3ba4d-0218-4f9b-a8cc-076eda230868)
+
+- *в bucket залил страничку и создал dns запись*   
+
+![image](https://github.com/user-attachments/assets/a858e49e-1790-4b41-ac76-0096cce8bed6)
+
+- *и прикрутил сертификат*   
+
+![image](https://github.com/user-attachments/assets/ab6cacaf-0d7f-44af-be2f-e21bfe379de9)
+
+- *проверяем - ругается на то что сертификат самоподписной, но по https заходит*     
+
+![image](https://github.com/user-attachments/assets/dae9bd57-95ef-4ec0-8707-39fe6da6ae35)
 
 
 - *Проверяем доступность картинки в бакете из интернет:*   [https://tarahumara.website.yandexcloud.net/ben.jpg](https://tarahumara.website.yandexcloud.net/ben.jpg)
